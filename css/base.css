@@ -1,0 +1,16 @@
+:root {
+  --gray: #e5e5e5;
+  --blue: #021a84;
+  --white: #ffffff;
+  --green: #2ada66;
+  --bluewhite: #021a84;
+  --whitegray: #e5e5e5;
+}
+html body {
+  font-family: "Inter", sans-serif;
+}
+.app {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+}

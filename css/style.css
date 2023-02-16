@@ -1,0 +1,137 @@
+/* start-header */
+.header {
+  width: 100%;
+  height: 80px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 140px;
+}
+.header-nav__logo {
+  width: 190.43px;
+  height: 40px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.header-list__iteam {
+  width: 149px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.btn-login {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.btn-signin {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.btn-job {
+  color: black;
+}
+/* search */
+.wapper {
+  padding: 40px 140px;
+  background-color: var(--whitegray);
+}
+.form-layout {
+  padding: 12px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 1160px;
+  height: 70px;
+  gap: 12px;
+  border-radius: 16px;
+}
+.form-input,
+.form-search__left,
+.input-posision {
+  display: flex;
+  align-items: center;
+}
+.search__btn-left {
+  width: 18px;
+  height: 18px;
+}
+.input-choice {
+  width: 15.8px;
+  height: 7.1px;
+}
+.form-input__img {
+  width: 15px;
+  height: 18px;
+}
+.form-search__left {
+  width: 688px;
+  height: 51px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+.form-input {
+  height: 51px;
+  width: 271px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: var(--white);
+  justify-content: space-between;
+}
+.button-search {
+  width: 149px;
+  height: 44px;
+  padding: 8px 34px;
+  border-radius: 8px;
+  background: #021a84;
+}
+.button-search__item {
+  font-weight: 500;
+  color: var(--white);
+}
+.form-input__posision,
+.form-search__input {
+  border: none;
+  outline: none;
+  margin-left: 8.5px;
+}
+
+.sugger-wapper {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+}
+.sugger-text {
+  color: var(--blue);
+}
+.sugger-list {
+  padding: 4px 8px;
+  color: rgba(2, 26, 132, 1);
+  border-radius: 8px;
+  margin-left: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  list-style: none;
+  line-height: 20px;
+}
+
+.menu-job {
+  width: 100%;
+  height: auto;
+}
+.menu-job__tille {
+}
+.job__tille {
+  width: 67px;
+  height: 67px;
+  padding: 70.5px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+}
