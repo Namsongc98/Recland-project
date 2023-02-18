@@ -387,7 +387,34 @@ span {
 .cooperate-title {
   color: #021a84;
 }
-.cooperate-title {
-}
+
 .cooperate-list {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cooperate-iteam {
+  width: 300px;
+  height: 238px;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cooperate-iteam__number {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+.cooperate-iteam__img {
+  width: 102px;
+  height: 99px;
+}
+.cooperate-iteam__title {
+  font-size: 18px;
+}
+.cooperate-iteam__text {
+  font-size: 14px;
 }
