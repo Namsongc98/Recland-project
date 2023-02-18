@@ -2,8 +2,11 @@
   --gray: #e5e5e5;
   --blue: #021a84;
   --white: #ffffff;
-  --green: #2ada66;
-  --bluewhite: #021a84;
+  --green-gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #2ada66;
+  --greentext: green;
+  --blue-gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #021a84;
+  --red-gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #e5532a;
+  --redtext: #e5532a;
   --whitegray: #e5e5e5;
 }
 html body {
